@@ -20,6 +20,20 @@ body {
       <li><a href="https://github.com/observablehq/plot#readme">API Documentation</a></li>
       <li><a href="https://observablehq.com/@observablehq/plot-cheatsheets?collection=@observablehq/plot-cheatsheets">Cheatsheets</a></li>
     </ul>
-    <script src="index.js"></script>
+    <script src="index.js"><div id="observablehq-Earnings_Field_of_Study_Plot-99873007"></div>
+    <div id="observablehq-Num_Grads_Field_of_Study_Plot-99873007"></div>
+    <div id="observablehq-Num_Grads_Earnings_Plot-99873007"></div>
+    <p>Credit: <a href="https://observablehq.com/@enoch-crow-ws/fields-of-study">The Most Popular Fields of Study for Bachelors Degrees are not the most lucrative. by Enoch Crow&#039;s Workspace</a></p>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+    import define from "https://api.observablehq.com/@enoch-crow-ws/fields-of-study.js?v=4";
+    new Runtime().module(define, name => {
+      if (name === "Earnings_Field_of_Study_Plot") return new Inspector(document.querySelector("#observablehq-Earnings_Field_of_Study_Plot-99873007"));
+      if (name === "Num_Grads_Field_of_Study_Plot") return new Inspector(document.querySelector("#observablehq-Num_Grads_Field_of_Study_Plot-99873007"));
+      if (name === "Num_Grads_Earnings_Plot") return new Inspector(document.querySelector("#observablehq-Num_Grads_Earnings_Plot-99873007"));
+    });
+    </script>
   </body>
 </html>
